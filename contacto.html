@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Contacto | PC Repair</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<header class="header">
+
+    <a href="index.html" class="logo">
+        PC<span>REPAIR</span>
+    </a>
+
+    <nav class="nav">
+
+        <a href="index.html">
+            Inicio
+        </a>
+
+        <a href="servicios.html">
+            Servicios
+        </a>
+
+        <a href="precios.html">
+            Precios
+        </a>
+
+        <a href="contacto.html" class="active">
+            Contacto
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- CABECERA -->
+
+    <section class="page-hero contact-hero">
+
+        <p class="eyebrow">
+            PC REPAIR · CONTACTO
+        </p>
+
+        <h1>
+            Hablemos de<br>
+            <span>tu PC.</span>
+        </h1>
+
+        <p>
+            Cuéntanos qué ocurre con tu ordenador y explícanos
+            qué necesitas. Revisaremos tu caso y te responderemos.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+
+    <section class="contact-main">
+
+        <div class="contact-information">
+
+            <p class="eyebrow">
+                PONTE EN CONTACTO
+            </p>
+
+            <h2>
+                Cuéntanos<br>
+                qué ocurre.
+            </h2>
+
+            <p>
+                No hace falta que sepas exactamente qué le pasa
+                a tu ordenador. Explícanos los síntomas o el
+                problema que estás teniendo y partiremos de ahí.
+            </p>
+
+
+            <div class="contact-details">
+
+                <div class="contact-detail">
+
+                    <span>
+                        CORREO
+                    </span>
+
+                    <p>
+                        Tu correo aquí
+                    </p>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <span>
+                        SERVICIOS
+                    </span>
+
+                    <p>
+                        Reparación · Mantenimiento · Optimización
+                    </p>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <span>
+                        RESPUESTA
+                    </span>
+
+                    <p>
+                        Te responderemos lo antes posible.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORMULARIO -->
+
+        <div class="contact-form-container">
+
+            <div class="form-header">
+
+                <h3>
+                    Envíanos un mensaje
+                </h3>
+
+                <p>
+                    Completa los siguientes campos.
+                </p>
+
+            </div>
+
+
+            <form
+                action="https://formspree.io/f/xyeyybyn"
+                method="POST"
+            >
+
+                <label for="nombre">
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Tu nombre"
+                    required
+                >
+
+
+                <label for="email">
+                    Correo electrónico
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="nombre@gmail.com"
+                    required
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                    title="Introduce un correo electrónico válido, por ejemplo nombre@gmail.com"
+                >
+
+
+                <label for="servicio">
+                    ¿Qué necesitas?
+                </label>
+
+                <select
+                    id="servicio"
+                    name="servicio"
+                    required
+                >
+
+                    <option value="" disabled selected>
+                        Selecciona una opción
+                    </option>
+
+                    <option value="limpieza">
+                        Limpieza y mantenimiento
+                    </option>
+
+                    <option value="optimizacion">
+                        Optimización
+                    </option>
+
+                    <option value="reparacion">
+                        Diagnóstico y reparación
+                    </option>
+
+                    <option value="montaje">
+                        Montaje o actualización
+                    </option>
+
+                    <option value="otro">
+                        Otro
+                    </option>
+
+                </select>
+
+
+                <label for="mensaje">
+                    Mensaje
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    placeholder="Explícanos qué ocurre con tu PC..."
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+
+                <p class="form-note">
+                    Al enviar este formulario, recibiremos la
+                    información necesaria para responderte.
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- INFORMACIÓN -->
+
+    <section class="contact-bottom">
+
+        <div>
+
+            <p class="eyebrow">
+                ANTES DE CONTACTAR
+            </p>
+
+            <h2>
+                Cuanto más nos cuentes,<br>
+                mejor podremos ayudarte.
+            </h2>
+
+        </div>
+
+
+        <div class="contact-tips">
+
+            <div>
+
+                <span>
+                    01
+                </span>
+
+                <h3>
+                    Describe el problema
+                </h3>
+
+                <p>
+                    Explícanos qué ocurre, cuándo empezó y si
+                    aparece algún mensaje de error.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    02
+                </span>
+
+                <h3>
+                    Cuéntanos tu equipo
+                </h3>
+
+                <p>
+                    Si conoces los componentes de tu PC, puedes
+                    indicarlos en el mensaje.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    03
+                </span>
+
+                <h3>
+                    No te preocupes si no sabes
+                </h3>
+
+                <p>
+                    Si no sabes qué ocurre, simplemente descríbenos
+                    los síntomas y lo analizaremos.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta-section">
+
+        <p class="eyebrow">
+            PC REPAIR
+        </p>
+
+        <h2>
+            ¿Tienes alguna duda?
+        </h2>
+
+        <p>
+            Estamos aquí para ayudarte con tu ordenador.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-logo">
+        PC<span>REPAIR</span>
+    </div>
+
+    <p>
+        Reparación y mantenimiento de ordenadores.
+    </p>
+
+    <p class="copyright">
+        © 2026 PC Repair
+    </p>
+
+</footer>
+```
+
+</body>
+
+</html>
